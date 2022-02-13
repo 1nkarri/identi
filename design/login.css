@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
+
+:root {
+    --body-font: 'Inter', sans-serif;
+
+    /* Colores */
+    --white           : #FFFFFF;
+    --black           : #000000;
+
+    --green-500       : #2A945F;
+    --green-600       : #21764B;
+
+    --background      : #FCFDFF;
+    --background-alt  : #F7F9F9;
+    --background-alter: #EFF3F4;
+    --border-color    : #CFD9DE;
+
+    --text-color-light: #536471;
+    --text-color      : #0F1419;
+
+    /* Espacios */
+    --gap-4 : 2rem;
+    --gap-3 : 1.5rem;
+    --gap-2 : 1rem;
+    --gap-1 : 0.5rem;
+    --gap-05: 0.25rem;
+
+    --gap-section: 8rem;
+    --gap-article: 4rem;
+
+    /* Border radius */
+    --radius-1: 0.25rem;
+    --radius-2: 0.5rem;
+    --radius-3: 1rem;
+
+    /* box-shadow */
+    --shadow: 0px 1px 7px rgb(0 0 0 / 32%);
+
+    /* Text */
+    --small-font-size : 0.75rem;
+    --normal-font-size: 1rem;
+    --h3-font-size    : 1.25rem;
+    --h2-font-size    : 1.5rem;
+    --h1-font-size    : 2rem;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin    : 0;
+    padding   : 0;
+}
+
+a {
+    color          : var(--green-500);
+    cursor         : pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    color          : var(--green-600);
+    text-decoration: underline;
+}
+
+button {
+    background-color: var(--green-500);
+    color           : var(--white);
+    cursor          : pointer;
+    padding         : 0.5rem 2rem;
+    border-radius   : var(--radius-2);
+    font-size       : var(--normal-font-size);
+    font-weight     : 700;
+    border          : none;
+}
+
+button:hover {
+    background-color: var(--green-600);
+}
+
+input {
+    font-size       : var(--normal-font-size);
+    padding         : var(--gap-1);
+    background-color: var(--background-alter);
+    border-radius   : var(--radius-1);
+    border          : 1px solid var(--border-color);
+    color           : var(--text-color-light);
+}
+
+input:focus-visible {
+    background-color: var(--white);
+    outline-color   : var(--green-500);
+    color           : var(--text-color);
+}
+
+.body {
+    font-family     : var(--body-font);
+    color           : var(--text-color);
+    background-color: var(--green-500);
+    display         : flex;
+    flex-direction  : column;
+}
+
+.main {
+    min-height     : 100vh;
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    justify-content: center;
+}
+
+.gap {
+    padding: var(--gap-4) 0;
+}
+
+.card {
+    background-color: var(--background);
+    display         : grid;
+    border-radius   : var(--radius-2);
+    margin          : 0 var(--gap-4);
+    padding         : var(--gap-4);
+    box-shadow      : var(--shadow);
+    max-width       : 375px;
+}
+
+.conditions {
+    margin-bottom: var(--gap-4);
+}
+
+.title {
+    font-size    : var(--h2-font-size);
+    margin-bottom: var(--gap-article);
+}
+
+.brand {
+    color         : var(--green-500);
+    font-size     : 4rem;
+    letter-spacing: 0.2rem;
+}
+
+.recovery {
+    margin-bottom: var(--gap-4);
+    font-size    : var(--small-font-size);
+    font-weight  : 500;
+    text-align   : right;
+}
+
+.input-main {
+    display       : flex;
+    flex-direction: column;
+    border        : none;
+    margin-bottom : var(--gap-2);
+}
+
+.label {
+    font-size: var(--small-font-size);
+    color    : var(--text-color-light);
+}
+
+.conditions {
+    color     : var(--text-color-light);
+    font-size : var(--small-font-size);
+    text-align: center;
+}
