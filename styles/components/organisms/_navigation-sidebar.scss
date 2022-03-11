@@ -39,19 +39,31 @@
                 flex-direction: column;
             }
 
+            .item.active {
+                .section {
+                    .icon {
+                        color: var(--green-500);
+                    }
+                    .name {
+                        color: var(--green-500);
+                        font-weight: 500;
+                    }
+                }
+            }
+
             .section {
                 padding: 1rem;
                 display: flex;
                 align-items: center;
                 transition: all 0.5s ease;
 
-                svg {
+                .icon {
                     margin-right: var(--gap-1);
                 }
 
                 &:hover {
                     background-color: var(--bg-alt);
-                    svg {
+                    .icon {
                         color: var(--green-500);
                     }
                     .name {
