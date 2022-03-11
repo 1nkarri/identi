@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    font-family      : var(--body-font);
+    font-size        : var(--normal-font-size);
+    color            : var(--text-color);
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+span {
+    color: var(--text-color-light);
+}
+
+svg {
+    content   : "";
+    display   : block;
+    width     : 2rem;
+    height    : 2rem;
+    cursor: pointer;
+    color: var(--text-color-light);
+}

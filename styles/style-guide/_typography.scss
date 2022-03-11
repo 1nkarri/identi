@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap");
+
+:root {
+    --body-font        : 'Inter', sans-serif;
+
+    /* Font sizes */
+    --h1--font-size    : 2rem;
+    --h2-font-size     : 1.5rem;
+    --h3-font-size     : 1.25rem;
+    --normal-font-size : 1rem;
+    --small-font-size  : 0.75rem;
+}
+
+.small {
+    font-size: var(--small-font-size);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+h1, .h1 {
+    font-size: var(--h1-font-size);
+}
+
+h2, .h2 {
+    font-size: var(--h2-font-size);
+}
+
+h3, .h3 {
+    font-size: var(--h3-font-size);
+}
+
+p {
+    font-size: var(--normal-font-size);
+}

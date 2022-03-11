@@ -1,0 +1,19 @@
+.tag {
+    &-green {
+        padding: var(--padding-05) var(--padding-1);
+        color: var(--green-700);
+        background-color: var(--green-100);
+        border-radius: var(--radius-3);
+        font-size: var(--small-font-size);
+        font-weight: 600;
+    }
+
+    &-purple {
+        padding: var(--padding-05) var(--padding-1);
+        color: var(--purple-700);
+        background-color: var(--purple-100);
+        border-radius: var(--radius-3);
+        font-size: var(--small-font-size);
+        font-weight: 600;
+    }
+}

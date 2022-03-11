@@ -1,0 +1,45 @@
+:root {
+    /* Spacing */
+    --gap-section: 8rem;
+    --gap-article: 4rem;
+
+    --gap-4 : 2rem;
+    --gap-3 : 1.5rem;
+    --gap-2 : 1rem;
+    --gap-1 : 0.5rem;
+    --gap-05: 0.25rem;
+
+    --margin-4: var(--gap-4);
+    --margin-3: var(--gap-3);
+    --margin-2: var(--gap-2);
+    --margin-1: var(--gap-1);
+    --margin-05: var(--gap-05);
+
+    --padding-4: var(--gap-4);
+    --padding-3: var(--gap-3);
+    --padding-2: var(--gap-2);
+    --padding-1: var(--gap-1);
+    --padding-05: var(--gap-05);
+
+    --radius-1: var(--gap-05);
+    --radius-2: var(--gap-1);
+    --radius-3: var(--gap-2);
+}
+
+.mb {
+    &-05 {
+        margin-bottom: var(--margin-05);
+    }
+
+    &-1 {
+        margin-bottom: var(--margin-1);
+    }
+
+    &-2 {
+        margin-bottom: var(--margin-2);
+    }
+
+    &-4 {
+        margin-bottom: var(--margin-4);
+    }
+}

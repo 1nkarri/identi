@@ -1,0 +1,14 @@
+.button {
+    background   : var(--green-500);
+    padding      : var(--gap-1) var(--gap-2);
+    color        : var(--white-color);
+    text-align   : center;
+    font-size    : var(--normal-font-size);
+    font-weight  : 500;
+    cursor       : pointer;
+    border-radius: var(--gap-05);
+
+    &:hover {
+        background: var(--green-600);
+    }
+}
